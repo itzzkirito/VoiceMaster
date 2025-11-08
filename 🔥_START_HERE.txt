@@ -1,0 +1,95 @@
+========================================
+  🚀 START LAVALINK SERVER - READ THIS
+========================================
+
+YOUR SERVER IS NOT RUNNING!
+The bot cannot connect because the Lavalink server is not started.
+
+========================================
+  HOW TO START (3 SIMPLE STEPS)
+========================================
+
+STEP 1: Open File Explorer
+  - Press Windows Key + E
+
+STEP 2: Go to this folder:
+  C:\Users\mdniy\Downloads\New bot\lavalink
+
+STEP 3: Double-click "start.bat"
+  - A black window will open
+  - Wait for "Application startup complete"
+  - KEEP THIS WINDOW OPEN (don't close it!)
+
+========================================
+  ✅ SUCCESS INDICATORS
+========================================
+
+When you see this in the server window:
+  "Started LavalinkServer in X.XXX seconds"
+  "Application startup complete"
+
+Then check your bot console - you should see:
+  "[SHOUKAKU] nodeConnect for node local"
+  "[HEALTH CHECK] ✓ Local Server is reachable"
+
+========================================
+  ⚠️ IMPORTANT NOTES
+========================================
+
+1. KEEP THE SERVER WINDOW OPEN
+   - Closing it stops the server
+   - Minimize it if you want, but don't close it
+
+2. THE BOT CONNECTS AUTOMATICALLY
+   - No need to restart your bot
+   - It will reconnect within seconds
+
+3. JAVA VERSION WARNING
+   - You have Java 8 installed
+   - Lavalink prefers Java 17+
+   - It might still work, but if you get errors, upgrade Java
+   - Download Java 17: https://adoptium.net/
+
+========================================
+  🆘 PROBLEMS?
+========================================
+
+If the server doesn't start:
+
+1. Check Java:
+   - Open Command Prompt
+   - Type: java -version
+   - Should show version 8 or higher
+
+2. Check port:
+   - Another program might be using port 2030
+   - Close other applications
+   - Or change port in application.yml (line 190)
+
+3. Check logs:
+   - After starting, check: lavalink\logs\ folder
+   - Look for error messages
+
+4. Run diagnostic:
+   - Double-click: lavalink\check-setup.bat
+   - This will tell you what's wrong
+
+========================================
+  📁 FILES YOU NEED
+========================================
+
+✅ lavalink\start.bat - Main startup script
+✅ lavalink\Lavalink.jar - Server file (88MB)
+✅ lavalink\application.yml - Configuration
+✅ lavalink\test-start.bat - Test before starting
+
+========================================
+
+👉 GO TO: C:\Users\mdniy\Downloads\New bot\lavalink
+👉 DOUBLE-CLICK: start.bat
+👉 WAIT FOR: "Application startup complete"
+
+That's it! The bot will connect automatically.
+
+========================================
+
